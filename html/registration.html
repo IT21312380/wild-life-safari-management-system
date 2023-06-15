@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--adding a title-->
+<title>EmbraceTheWild.com</title>
+<!--linking -->
+<link rel="stylesheet" type="text/css" href="../styles/style.css">
+<script src="../js/java.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!--header-->
+<header class="head" >
+
+    <!--adding logo-->
+    <div class="logo">
+        <a href="../../IT21309038/html/home.html">
+     <img  src="../image/logo.jpg" alt="Image no found!" width="132px" height="132px">
+     </a>
+    </div>
+    <!--adding user logo-->
+    <div class="usericon">
+        <a href="../../IT21309038/html/Login.html">
+       <img src="../image/login.png" alt="Image no found!" width="132px" height="132px">
+       </a>
+
+    </div>
+    <!--heading text-->
+     <div id="text">
+        <p>" Wildlife And Its Habitat Cannot Speak, So We Must And We Will "</p>
+
+    </div>
+
+    <!--navigation bar-->
+    <ul id="navbar">
+         <li id="navbar"><a href = "../../IT21309038/html/home.html">Home</a></li>
+         <li id="navbar"><a href = "../../IT21309038/html/Login.html">Login </a></li>
+         <li id="navbar"><a href = "../../IT21312212/html/packages.html">Packages</a></li>
+         <li id="navbar"><a href = "../html/Offer.html">Offers</a></li>
+         <li id="navbar"><a href = "../../IT21312212/html/cart.html">Cart</a></li>
+         <li id="navbar"><a href = "../../IT21250088/html/AboutUs.html">About Us</a></li>
+         <li id="navbar"><a href = "../../IT21250088/html/contactUs.html">Contact Us</a></li>
+         <input type="text" placeholder="Search here..">
+   </ul>
+    
+</header>
+<br/><br/>
+<!--topic of form-->
+<div class="topic"><h1>Registration Form</h1></div>
+
+<div class="main">
+    <!--form-->
+    <form action="../php/register.php" method="post"  onsubmit="return checkPassword()">
+        <br/>
+        <!--name-->
+        <div id="name">
+          <h2 class="name">Name :</h2>
+          <input type="text" class="firstname" name="firstname" placeholder="First Name"  required><br/><br/>
+          <input type="text" class="lastname" name="lastname" placeholder="Last Name"  required><br/><br/>
+        </div>
+          <!--birthday-->
+        <h2 class="name">Birthday :</h2>
+        <input type="date" id="birthday" name="birthday" required>
+        <!--gender-->
+        <h2 class="name">Gender :</h2>
+
+        <dev class="radio1">
+          <input id="radio1" type="radio" name="gender" value="Male" > Male 
+       </dev>  
+
+       <dev class="radio2">
+          <input  type="radio" name="gender" value="Female"> Female<br/><br/>
+       </dev>
+         <!--address-->  
+        <h2 class="name">Address :</h2>
+        <div>
+         <textarea name="Address" class="address" rows="5" cols="60" placeholder="Enter Address" required></textarea><br/><br/>
+        </div>
+        <!--email-->
+        <h2 class="name">Email :</h2>
+         
+            <input type="email" class="email" name="email" placeholder="abc1@gmail.com" pattern="[a-z0-9._#+]+@[a-z0-9.]+\.[a-z
+            ]{2,3}" size="50" height="50px" required><br/><br/>
+          
+        <!--username-->
+        <h2 class="name">Username :</h2>
+         <input type="text"class="username" name="username" placeholder="Username"  required><br/><br/>
+
+        <!--password-->
+        <h2 class="name">Password :</h2>
+         <input type="password" class="password" name="password"  id="pwd" placeholder="Password" pattern="(?=,+\d)(?=,+[a-z](?=,+[A-Z].(5,10))" required><br/><br/>
+        <!--re enter-->
+        <h2 class="name">Re-EnterPassword :</h2>
+        <input type="password" class="conformed" id="conformed" placeholder="Password" required><br/><br/>
+        <div class="term">
+          <input type="checkbox"  id="checkbox" >I accept<a class="inputstyle"  href="" required> privacy policy and terms</a><br/><br/>
+       </div>
+<center>
+     <!--submit button-->
+    <button type="submit" class="register" id="submit" name="submit">Register</button> 
+     <!--reset button-->
+    <input type="reset" class="reset">
+</center>
+    </form>
+</div> 
+
+</div>
+
+<br/><br/><br/>
+ <!--footer-->
+<footer>
+     <!--left div class-->
+     <div class="first">
+        Find Us
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+        <h4>Embrace The Wild</h4>
+        <h5>This is the only place to make your exploring dream come true</h5>
+        <h5>Tel - 0714985511</h5>
+        <h5>Email - janinduudnaaa2000@gmail.com</h5>
+    </div>
+    <!--Right div class-->
+    <div class="third">
+        Locate Us
+        <a href="https://www.google.com/maps/place/Sri+Lanka+Institute+of+Information+Technology/@6.9146775,79.9707558,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae256db1a6771c5:0x2c63e344ab9a7536!8m2!3d6.9146775!4d79.9729445" style="color: white;"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 25px;"></i></a>
+        <br><br><br><br><br><br><br>
+        <h5>Created by MLB_06.01_04</h5>
+    </div>
+
+    <!--Middle div class-->
+    <div class="second">
+        <h3>Quick Links</h3>
+        <a class="foot" href="../../IT21309038/html/Gallery.html">Gallery</a><br>
+        <a class="foot" href="../../IT21250088/html/AboutUs.html">Privacy & Policy</a><br>
+        <a class="foot" href="../../IT21250088/html/AboutUs.html">Terms & Conditions</a><br>
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>

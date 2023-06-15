@@ -1,0 +1,399 @@
+/*making body styles*/
+body
+{
+	
+    background-image:url("../image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1vw;
+	
+}
+/*logo styles*/
+.logo
+{
+
+float: left;
+
+}
+/*logo styles*/
+.usericon
+{
+
+float: right;
+
+}
+/*header text styles*/
+#text
+{
+padding: 40px;
+font-size: large;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: rgb(11, 222, 110);
+text-align: center;
+
+}
+/*header background*/
+.head
+{
+
+    background-color: black;
+    opacity: 70%;
+	font-size: 1vw;
+    
+}
+/*navigation bar styles*/
+ul#navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+/*navigation bar location*/
+li#navbar{
+   float: left;
+}
+/*navigation text styles*/
+li a{
+   color: rgb(255, 255, 255);
+   display: block;
+   text-align: center;
+   padding: 12px;
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+}
+/*when mouse over*/
+li a:hover{
+   background-color: rgb(16, 208, 83);
+}
+/* search bar styles*/
+#navbar input[type=text]
+ {
+	float: right;
+	padding: 6px;
+	border: none;
+	font-size: 17px;
+	margin-top: 4px;
+	margin-right:4px;
+	font-style: italic;
+	
+  }
+  /* form topic*/
+.topic
+{
+	
+	width: 850px;
+	background-color:rgba(0, 0, 0, 0.8);
+	margin: auto;
+	color:#4d2ebe;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+}
+  /* form main styles*/
+.main
+{
+background-color: rgb(0,0,0,0.5);
+width: 850px;
+margin: auto;
+}
+ /* form text  styles*/
+.name
+ {
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 250px;
+	color: #ffffff;
+	font-size:large;
+	font-weight: bolder;
+
+ }
+  /* name id styles*/
+ #name
+ {
+	 width: 100%;
+	 height: 100px;
+	 
+ }
+  /* firstname class styles*/
+ .firstname
+ {
+	position: relative;
+	left: 230px;
+	top: -50px;
+	line-height: 40px;
+	border-radius: 5px;
+	padding: 0px 22px;
+	font-size: 16px;
+
+ }
+  /* lastname class styles*/
+.lastname
+{
+	position: relative;
+	left: 510px;
+	top: -116px;
+	line-height: 40px;
+	border-radius: 5px;
+	padding: 0px 22px;
+	font-size: 16px;
+ 
+}
+ /* birthday id styles*/
+#birthday
+{
+	position: relative;
+	left: 230px;
+	top: -50px;
+	line-height: 40px;
+	border-radius: 5px;
+	width: 200px;
+	font-size:large;
+	
+}
+ /* radio1 class styles*/
+.radio1
+{
+	position: relative;
+	left: 230px;
+	top: -58px;
+	display:  inline-block;
+	padding-right: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+
+}
+ /* radio2 class styles*/
+.radio2
+{
+	position: relative;
+	left: 390px;
+	top: -38px;
+	display:  inline-block;
+	padding-right: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+
+}
+ /* radio button 1 class styles*/
+ .radio1 input
+ {
+   width: 15px;
+   height: 15px;
+   border-radius: 40%;
+   cursor: pointer;
+
+ }
+ /* radio button 2 class styles*/
+ .radio2 input
+ {
+   width: 15px;
+   height: 15px;
+   border-radius: 40%;
+   cursor: pointer;
+
+ }
+ /* address input class styles*/
+ .address
+ {
+	position: relative;
+	left: 230px;
+	top: -38px;
+	font-size: 15px;
+	border-radius: 5px;
+
+
+ }
+ /* email input class styles*/
+ .email
+ {
+	position: relative;
+	left: 230px;
+	top: -50px;
+	line-height: 50px;
+	border-radius: 5px;
+	padding: 0px 22px 0px 22px ;
+	
+	font-size: 16px;
+	width: 300px;
+
+ }
+/* username input class styles*/
+ .username
+ {
+	position: relative;
+	left: 230px;
+	top: -50px;
+	line-height: 50px;
+	border-radius: 5px;
+	padding: 0px 22px;
+	font-size: 16px;
+	width: 250px;
+
+ }
+ /* password input class styles*/
+.password
+{
+	position: relative;
+	left: 230px;
+	top: -50px;
+	line-height: 50px;
+	border-radius: 5px;
+	padding: 0px 22px;
+	font-size: 16px;
+	width: 250px;
+
+}
+/* re enter password input class styles*/
+.conformed
+{
+	position: relative;
+	left: 230px;
+	top: -50px;
+	line-height: 50px;
+	border-radius: 5px;
+	padding: 0px 22px;
+	font-size: 16px;
+	width: 250px;
+
+}
+/* address input class styles*/
+.term
+{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	left: 230px;
+	top: -50px;
+	
+
+}
+/* register button styles*/
+.register
+{
+	position: relative;
+	left: -100px;
+	top: -30px;
+	background-color: rgb(49,81,17);
+	margin:10px 0px 0px 10px;
+	text-align: center;
+	border-radius: 15px;
+	border:2px solid rgb(57, 136, 81) ;
+	padding: 14px 70px;
+	color: aliceblue;
+	cursor: pointer;
+	transition: 0.25px;	
+
+}
+/* on mouse over register button styles*/
+.register:hover
+{
+	background-color: rgb(28,158,115);
+}
+/* reset button styles*/
+.reset
+{
+	position: relative;
+	left: 100px;
+	top: -30px;
+	background-color: rgb(183, 60, 42);
+	margin:10px 0px 0px 10px;
+	text-align: center;
+	border-radius: 15px;
+	border:2px solid rgb(67, 30, 8) ;
+	padding: 14px 70px;
+	color: aliceblue;
+	cursor: pointer;
+	transition: 0.25px;
+
+}
+/* on mouse over reset button button styles*/
+.reset:hover
+{
+	background-color: rgb(226, 76, 76);
+
+}
+/* hyperlink style*/
+.inputstyle
+{
+	text-decoration: none;
+}
+
+/*footer styling*/
+footer{
+    background-color: black;
+    opacity: 70%;
+    height: 220px;
+    padding: 8px;
+    font-size: 1vw;
+}
+/* first div class style styles*/
+
+.first{
+    color: white;
+    float: left;
+}
+/* second div class style styles*/
+.second{
+    color: white;
+    float: none;
+    margin-left: 500px;
+    text-decoration: none;
+}
+/* third div class style styles*/
+.third{
+    color: white;
+    float: right;
+}
+/* footer text styles*/
+h5{
+  font-size: 1vw;
+}
+/* middle class styles*/
+.foot{
+  text-decoration: none;
+  color: white;
+}
+/* icon styles*/
+.fa{
+  padding: 10px;
+  font-size: 30px;
+  width:15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+}
+/*on mouse over icon styles*/
+.fa:hover{
+  opacity: 0.7s;
+}
+/* facebook icon styles*/
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+/* tweeter icon styles*/
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+/* linkedin icon styles*/
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* instergram icon styles*/
+.fa-instagram {
+  background: purple;
+  color: white;
+}
